@@ -40,7 +40,7 @@ public class Driver {
             if(yesOrNo.charAt(0) == 'Y'|| yesOrNo.charAt(0) == 'y'){
                 set();
             }else{
-                System.out.println("Exit the programme.");
+                //System.out.println("Exit the programme.");
             }
         }
     }
