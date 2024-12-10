@@ -166,6 +166,7 @@ public class Driver {
         switch(acceptor){
             case "1" :
                 store.checkAll();
+                rubbish = input.nextLine();
                 administratorMode();
                 break;
             case "2" :
@@ -645,7 +646,7 @@ public class Driver {
                 if(flag == 1){
                     System.out.println("Can't find a corresponding costume!\nPlease enter any word to try again...");
                     rubbish = input.nextLine();
-                    searchSpecificItem();
+                    administratorSearchSpecificItem();
                 }
                 System.out.println("\nSuccessful pairing!\nEnter any word to back to the custom mode...");
                 rubbish = input.nextLine();
